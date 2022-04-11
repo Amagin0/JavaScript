@@ -1,6 +1,7 @@
-// switch
-// if文のほうが見やすい
+## switch文
+- if文のほうが見やすい
 
+```js
 const data = 1;
 
 switch (data) {
@@ -17,7 +18,8 @@ switch (data) {
     console.log('1-3ではありません')
     break;
 }
-
+```
+```js
 if (data === 1) {
   console.log('1です')
 }
@@ -27,3 +29,4 @@ if (data === 2) {
 if (data === 3) {
   console.log('3です')
 }
+```
