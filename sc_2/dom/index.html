@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/app.css" >
+  <title>Document</title>
+</head>
+<body>
+  <div id="test">
+    <ul>
+      <li class="test_list">テスト１</li>
+      <li class="test_list">テスト２</li>
+      <li class="test_list">テスト３</li>
+    </ul>
+  </div>
+  <p class="border-red">aaa</p>
+  <p>aaa</p>
+  <p>aaa</p>
+
+  <span class="border-red">bbb</span>
+  <span>bbb</span>
+  <span>bbb</span>
+
+  <script>
+    const test = document.getElementById('test');
+
+    /* idで取得する場合 */
+    // const testList = document.querySelecter('#test');
+    /* classで取得する場合 */
+    const testList = document.querySelector('.test_list');
+    const testLists = document.querySelectorAll('.test_list');
+    console.log(test);
+    console.log(testList);
+    console.log(testLists);
+
+  </script>
+</body>
+</html>
